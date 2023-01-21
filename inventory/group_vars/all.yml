@@ -421,40 +421,20 @@ git_repositories:
     dest: ansible-role-zabbix_web
   - repo: https://github.com/robertdebock/ansible-collection-roles.git
     dest: ansible-collection-roles
-  - repo: https://github.com/robertdebock/ansible-collection-rundeck.git
-    dest: ansible-collection-rundeck
   - repo: https://github.com/robertdebock/ansible-generator.git
     dest: ansible-generator
   - repo: https://github.com/robertdebock/ansible-integration.git
     dest: ansible-integration
-  - repo: https://github.com/robertdebock/ansible-playbook-bios_update.git
-    dest: ansible-playbook-bios_update
   - repo: https://github.com/robertdebock/ansible-playbook-cloudtop.git
     dest: ansible-playbook-cloudtop
-  - repo: https://github.com/robertdebock/ansible-playbook-gitlab_runner.git
-    dest: ansible-playbook-gitlab_runner
   - repo: https://github.com/robertdebock/ansible-playbook-haproxy.git
     dest: ansible-playbook-haproxy
-  - repo: https://github.com/robertdebock/ansible-playbook-jitsi.git
-    dest: ansible-playbook-jitsi
-  - repo: https://github.com/robertdebock/ansible-playbook-keepalived.git
-    dest: ansible-playbook-keepalived
-  - repo: https://github.com/robertdebock/ansible-playbook-libvirt.git
-    dest: ansible-playbook-libvirt
   - repo: https://github.com/robertdebock/ansible-playbook-mylucie.git
     dest: ansible-playbook-mylucie
-  - repo: https://github.com/robertdebock/ansible-playbook-nextcloud.git
-    dest: ansible-playbook-nextcloud
-  - repo: https://github.com/robertdebock/ansible-playbook-nomad.git
-    dest: ansible-playbook-nomad
   - repo: https://github.com/robertdebock/ansible-playbook-rancher.git
     dest: ansible-playbook-rancher
-  - repo: https://github.com/robertdebock/ansible-playbook-saltstack.git
-    dest: ansible-playbook-saltstack
   - repo: https://github.com/robertdebock/ansible-playbook-terraform.git
     dest: ansible-playbook-terraform
-  - repo: https://github.com/robertdebock/ansible-playbook-tester.git
-    dest: ansible-playbook-tester
   - repo: https://github.com/robertdebock/ansible-playbook-vault.git
     dest: ansible-playbook-vault
   - repo: https://github.com/robertdebock/ansible-playbook-zabbix.git
@@ -509,12 +489,8 @@ git_repositories:
     dest: molecule-action
   - repo: https://github.com/robertdebock/move_to_collections.git
     dest: move_to_collections
-  - repo: https://github.com/robertdebock/packer-centos.git
-    dest: packer-centos
   - repo: https://github.com/robertdebock/packer-fedora.git
     dest: packer-fedora
-  - repo: https://github.com/robertdebock/packer-opensuse.git
-    dest: packer-opensuse
   - repo: https://github.com/robertdebock/pre-commit.git
     dest: pre-commit
   - repo: https://github.com/robertdebock/presentations.git
@@ -525,8 +501,6 @@ git_repositories:
     dest: skeleton
   - repo: https://github.com/robertdebock/terraform-action.git
     dest: terraform-action
-  - repo: https://github.com/robertdebock/terraform-aws-vpc-bootstrap.git
-    dest: terraform-aws-vpc-bootstrap
   - repo: https://github.com/robertdebock/terraform-azurerm-azurerm_network_interface.git
     dest: terraform-azurerm-azurerm_network_interface
   - repo: https://github.com/robertdebock/terraform-azurerm-azurerm_network_security_group.git
@@ -551,7 +525,5 @@ git_repositories:
     dest: terraform-digitalocean-ssh_key
   - repo: https://github.com/robertdebock/terraform-digitalocean-vpc.git
     dest: terraform-digitalocean-vpc
-  - repo: https://github.com/robertdebock/terraform-use-case-azure-loadbalanced-service.git
-    dest: terraform-use-case-azure-loadbalanced-service
   - repo: https://github.com/robertdebock/terragrunt-demo.git
     dest: terragrunt-demo
